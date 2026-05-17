@@ -25,7 +25,7 @@ func main() {
 	http.HandleFunc("/deposit", depositMoney)
 	http.HandleFunc("/withdraw", withdrawMoney)
 
-	fmt.Println("🚀 Server running at http://localhost:8080")
+	fmt.Println(" Server running at http://localhost:8080")
 	http.ListenAndServe(":8080", nil)
 }
 
